@@ -1,0 +1,8 @@
+Pré-requisito: ter o java 8 instalado no computador.
+
+Passos:
+1. Copiar o arquivo lib/rxtxSerial.dll para a pasta bin do java 8.
+2. Remover do path do sistema a entrada similar a "C:\Program Files (x86)\Common Files\Oracle\Java\javapath"  (observar o javapath no final). Copiar o diretório caso seja necessário voltar para a versão original do java posteriormente.
+3. Modificar, caso exista, ou criar, caso não exista, a variável de ambiente JAVA_HOME para apontar para a versão do java presente em C:\Program Files (x86)\Java (Copiar a configuração original para um txt para futura restauração). Ex: c:\Program Files (x86)\Java\jre1.8.8_291.
+4. Incluir no path do sistema a entrada %JAVA_HOME%\bin.
+5. Executar o arquivo get-conductance.bat no terminal do Windows, passando como parâmetro a porta COM do dispositivo.

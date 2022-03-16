@@ -1,0 +1,1 @@
+Bibiloteca serial utilizada no projeto: https://github.com/openmuc/jrxtx
