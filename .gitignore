@@ -1,1 +1,17 @@
 /.vscode
+simulator/scripts/jar/mttr-simulator-1.0-SNAPSHOT.jar
+simulator/target/mttr-simulator-1.0-SNAPSHOT.jar
+simulator/target/classes/com/grtech/comm/ISerialComm.class
+simulator/target/classes/com/grtech/comm/serial/SerialComm.class
+simulator/target/classes/com/grtech/mttr/protocol/message/IResponse.class
+simulator/target/classes/com/grtech/mttr/protocol/message/Request.class
+simulator/target/classes/com/grtech/mttr/protocol/message/request/CalculateConductanceReq.class
+simulator/target/classes/com/grtech/mttr/protocol/message/request/CalibrationFactorReq.class
+simulator/target/classes/com/grtech/mttr/protocol/message/request/ReadTelemetryDataReq.class
+simulator/target/classes/com/grtech/mttr/protocol/message/response/ReadTelemetryDataResp.class
+simulator/target/classes/com/grtech/mttr/protocol/simulator/Simulator.class
+simulator/target/classes/com/grtech/util/ByteQueue.class
+simulator/target/classes/com/grtech/util/GeneralFunctions.class
+simulator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+simulator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+simulator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
